@@ -1,0 +1,478 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+	<link rel="shortcut icon" href="http://web.minsal.cl/sites/all/themes/minsal/favicon.ico" type="image/vnd.microsoft.icon">
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>Sistema Integral de Atención Ciudadana</title>
+    <!-- BOOTSTRAP CORE STYLE  -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE  -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+	<!-- bootstrap wysihtml5 - text editor -->
+    <link href="assets/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" />
+	<!-- Real Person - text editor -->
+    <link href="assets/css/jquery.realperson.package-2.0.0/jquery.realperson.css" rel="stylesheet" type="text/css" />
+    <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <!-- HEADER END-->
+    <div class="navbar navbar-inverse set-radius-zero">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo.png" />
+                </a>
+            </div>
+
+            <div class="left-div">
+                <div class="user-settings-wrapper">
+					<div class="navName">
+						<h3><strong>SISTEMA INTEGRAL DE ATENCIÓN CIUDADANA</strong></h3>
+					</div>
+                </div>
+            </div>
+			
+        </div>
+    </div>
+    <!-- LOGO HEADER END-->
+    <section class="menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="navbar-collapse collapse ">
+                        <ul id="menu-top" class="nav navbar-nav navbar-right">
+                            <li><a class="menu-top-active" href="index.html">Inicio</a></li>
+							<li><a href="formulario.html">Ingresar Solicitud</a></li>
+                            <li><a href="#">Preguntas Frecuentes</a></li>
+                            <li><a href="#">Oficinas Regionales</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MENU SECTION END-->
+    <div class="content-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+
+				
+					<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4>Formulario Único de Ingreso</h4>
+							</div>
+							<div class="panel-body">
+								<ul class="nav nav-tabs">
+									<li class="active"><a href="#p1" data-toggle="tab">Paso 1</a>
+									</li>
+									<li class=""><a href="#p2" data-toggle="tab">Paso 2</a>
+									</li>
+									<li class=""><a href="#p3" data-toggle="tab">Paso 3</a>
+									</li>
+									<li class=""><a href="#p4" data-toggle="tab">Paso 4</a>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane fade active in" id="p1">
+										<div class="panel panel-default sinbold">
+											<div class="panel-heading">
+											  <b>Paso 1 : ¿Qué desea realizar?</b>
+											</div>
+												<div class="panel-body">
+													<form>
+														<table class="table-normal">
+															<tbody>
+															  <tr>
+																<td>
+																  <div class="checkbox">
+																	<label>
+																	  <input type="checkbox" /> Reclamo
+																	</label>
+																  </div>
+																</td>
+																<td>
+																  <div class="checkbox">
+																	<label>
+																	  <input type="checkbox" /> Consulta
+																	</label>
+																  </div>
+																</td>
+																<td>
+																  <div class="checkbox">
+																	<label>
+																	  <input type="checkbox" /> Sugerencia
+																	</label>
+																  </div>
+																</td>
+																<td>
+																  <div class="checkbox">
+																	<label>
+																	  <input type="checkbox" /> Solicitud
+																	</label>
+																  </div>
+																</td>
+																<td>
+																  <div class="checkbox">
+																	<label>
+																	  <input type="checkbox" /> Felicitación
+																	</label>
+																  </div>
+																</td>
+															  </tr>
+															</tbody>
+														</table>
+														<div class="form-group sinpadding">
+															 <div class="col-md-6">
+																	<label>¿Sobre que tema desea consultar?</label>
+																	<select class="form-control ">
+																		<option>Por favor seleccione el ámbito de su consulta</option>
+																		<option>1 Vale</option>
+																		<option>2 Vale</option>
+																		<option>3 Vale</option>
+																	</select>
+															</div>	
+															<div class="col-md-6">
+																	<label>¿A quien desea dirigir su solicitud?  : </label>
+																	<input type="text" class="form-control" />
+																	<a href="#" class="btn btn-info btn-enviar"><span class="glyphicon glyphicon-search"></span>  Buscar </a>
+															</div>
+														</div>
+													</form>
+												</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="p2">		
+										<div class="panel panel-default sinbold">
+															<div class="panel-heading">
+															  <b>Paso 2 : Identificación</b>
+															</div>
+											<div class="panel-body">
+												<form>
+													<table class="table-normal">
+														<tbody>
+														  <tr>
+															<td>
+																<div class="radio">
+																
+																<span class="espacio-span">¿Realiza esta solicitud a nombre de otra persona?</span>
+																	<label class="padding-label-radio">
+																		<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked />
+																		 Sí
+																	</label>
+																	<label>
+																		<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" />
+																		No
+																	</label>
+																</div>
+															</td>
+														  </tr>
+														  <tr>
+															<td>
+																	<b>Datos de la persona representada</b> 
+															</td>
+														  </tr>
+														</tbody>
+													</table>
+													
+													<div class="form-group sinpadding">
+														 <div class="col-md-2">
+															<label>Rut/Pasaporte : </label>
+															<input type="text" class="form-control ancho-input" />
+														 </div>
+														 <div class="col-md-4">
+															<label>Nombres  : </label>
+															<input type="text" class="form-control" />
+														</div>
+														<div class="col-md-3">
+															<label>Apellido Paterno  : </label>
+															<input type="text" class="form-control" />
+														</div>
+														<div class="col-md-3">								
+															<label>Apellido Materno  : </label>
+															<input type="text" class="form-control" />
+														</div>	
+														<div class="col-md-12">
+															<label>Etc  : </label>
+															<input type="text" class="form-control" />
+														</div>
+													</div>
+											
+											<br />
+													<table class="table-normal">
+														<tbody>
+														  <tr>
+															<td>
+																<div class="radio">
+																
+																<span class="espacio-span">El solicitante es : </span>
+																	<label class="padding-label-radio">
+																		<input type="radio" name="optionsRadios2" id="optionsRadios3" value="option3" checked />
+																		 Persona natural
+																	</label>
+																	<label>
+																		<input type="radio" name="optionsRadios2" id="optionsRadios4" value="option4" />
+																		Persona jurídica 
+																	</label>
+																</div>
+															</td>
+														  </tr>
+														  <tr>
+															<td>
+																	<b>Datos del solicitante</b>
+															</td>
+														  </tr>
+														</tbody>
+													</table>
+													
+													<div class="form-group sinpadding">
+														 <div class="col-md-2">
+															<label>Rut/Pasaporte : </label>
+															<input type="text" class="form-control ancho-input" />
+														 </div>
+														 <div class="col-md-4">
+															<label>Nombres  : </label>
+															<input type="text" class="form-control" />
+														</div>
+														<div class="col-md-3">
+															<label>Apellido Paterno  : </label>
+															<input type="text" class="form-control" />
+														</div>
+														<div class="col-md-3">								
+															<label>Apellido Materno  : </label>
+															<input type="text" class="form-control" />
+														</div>	
+														<div class="col-md-12">
+															<label>Etc  : </label>
+															<input type="text" class="form-control" />
+														</div>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="p3">
+											<div class="panel panel-default">
+												<div class="panel-heading">
+												  <b>Paso 3 : Descripción de su solicitud </b>
+												</div>
+													<div class="panel-body">
+														<form>
+															<div class='box'>
+																<div class='box-header'>
+																	<h3 class='box-title'><small>Descrioción de la situación que origina su solicitud</small></h3>
+																	<!-- tools box -->
+																	<div class="pull-right box-tools">
+																		<button class="btn btn-default btn-sm" data-widget='collapse' data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
+																		<button class="btn btn-default btn-sm" data-widget='remove' data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>
+																	</div><!-- /. tools -->
+																</div><!-- /.box-header -->
+																<div class='box-body pad'>
+																	<form>
+																		<textarea class="textarea" placeholder="Escriba el texto aquí" style="width: 100%; height: 110px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>                      
+																	</form>
+																</div>
+															</div>
+															<div class='box'>
+																<div class='box-header'>
+																	<h3 class='box-title'><small>Solicitud concreta</small></h3>
+																	<!-- tools box -->
+																	<div class="pull-right box-tools">
+																		<button class="btn btn-default btn-sm" data-widget='collapse' data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
+																		<button class="btn btn-default btn-sm" data-widget='remove' data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>
+																	</div><!-- /. tools -->
+																</div><!-- /.box-header -->
+																<div class='box-body pad'>
+																	<form>
+																		<textarea class="textarea" placeholder="Escriba el texto aquí" style="width: 100%; height: 110px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>                      
+																	</form>
+																</div>
+															</div>
+														
+															<div class="form-group">
+																	<label for="exampleInputFile">Adjunta archivos? </label> <small> pdf, doc, docx, jpg, Máximo 5mb</small>
+																	<input type="file" id="exampleInputFile" />
+																
+															</div>
+														</form>
+													</div>
+											</div>
+									</div>
+									<div class="tab-pane fade" id="p4">
+														<div class="panel panel-default">
+										<div class="panel-heading">
+										  <b>Paso 4 : Solicitud concreta </b>
+										</div>
+											<div class="panel-body">
+												<form>
+													<table class="table-normal">
+														<tbody>
+														  <tr>
+															<td>
+																<div class="radio">						
+																	<label class="padding-label-radio">
+																		<input type="radio" name="optionsRadios5" id="optionsRadios5" value="option5 checked" />
+																		 Vía correo electrónico 
+																	</label>
+																	<label class="padding-label-radio">
+																		<input type="radio" name="optionsRadios5" id="optionsRadios6" value="option6" />
+																		Carta certificada a mi domicilio 
+																	</label>
+																	<label>
+																		<input type="radio" name="optionsRadios5" id="optionsRadios7" value="option7" />
+																		Retiro en lugar a quien dirijo mi solicitud  
+																	</label>
+																</div>
+															</td>
+														  </tr>
+														</tbody>
+													</table>
+													<div class="form-group sinpadding">
+														 <div class="col-md-6">
+															<label>Ingrese correo electrónico/domicilio : </label>
+															<input type="text" class="form-control ancho-input" />
+														 </div>
+														
+													</div>
+													<div class="col-md-12">
+															<hr/>
+													</div>
+													<table class="table-normal">
+												
+														<tbody>
+														  <tr>
+															<td>
+																   <div class="checkbox">
+																	<label>
+																	  <input type="checkbox" /> Acepta los términos y condiciones <button type="button" class="btn btn-link">(Términos y condiciones)</button>
+																	</label>
+																  </div>
+															</td>
+														  </tr>
+														  <tr>
+															  <td>
+																<label>Confirmación Capcha:</label>
+															  </td>
+														  </tr>
+														  <tr>
+															<td>
+																	<input type="text" id="defaultReal" name="defaultReal" />
+															</td>
+															<td>
+																	<a href="#" class="btn btn-success btn-enviar"><span class="glyphicon glyphicon-ok"></span>  Finalizar Ingreso </a>
+															</td>
+														  </tr>
+														</tbody>
+													</table>
+
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div>
+
+                </div>
+				 <div class="col-md-4">
+						<h4 class="page-head-line">¿Tienes alguna duda o consulta?</h4>
+						
+						<a class="" href="http://web.minsal.cl/salud_responde" target="_blank">
+							 <img src="assets/img/salud-responde.png" id="logo-salud"/>
+						</a>
+						<hr />
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								Acceso Usuarios Registrados
+							</div>
+					
+							<div class="panel-body">									
+								<label>Correo Electrónico : </label>
+								<input type="text" class="form-control" />
+								<label>Contraseña :  </label>
+								<input type="text" class="form-control" />
+			
+								<button type="button" class="btn btn-link">¿Olvidó su contraseña?</button>
+							
+							  <a href="#" class="btn btn-success btn-enviar"><span class="glyphicon glyphicon-user"></span>  Ingresar </a>
+							</div>
+							<div class="panel-footer text-muted">
+								<strong>Nota : </strong>El registro no es obligatorio, pero si usted se registra,  podrá revisar el historial de sus solicitudes. 
+							</div>
+						</div>
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								Ver Estado de mi Solicitud
+							</div>
+						    <div class="panel-footer text-muted">
+							    ¿Ya ingreso una solicitud y desea saber su estado?
+							</div>
+							<div class="panel-body">									
+								<label>Ingrese su Código de Seguimiento  : </label>
+								<input type="text" class="form-control" />
+			
+								<button type="button" class="btn btn-link">¿Dónde encuentro el código?</button>
+							
+							  <a href="#" class="btn btn-info btn-enviar"><span class="glyphicon glyphicon-search"></span>  Buscar </a>
+							</div>
+						</div>
+
+						<div class="embed-responsive embed-responsive-4by3">
+						  <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/A_tV_whNxOc"></iframe>
+						</div>						
+					
+				</div>
+            </div>
+       
+        </div>
+    </div>
+    <!-- CONTENT-WRAPPER SECTION END-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="http://web.minsal.cl" target="_blank">Ministerio de Salud</a> - Mac Iver 541, Santiago, Chile - Telefonos (56-2) 5740 100 
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER SECTION END-->
+
+    <!-- CORE JQUERY SCRIPTS -->
+    <script src="assets/js/jquery-1.11.1.js"></script>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+            //bootstrap WYSIHTML5 - text editor
+            $(".textarea").wysihtml5();
+    </script>
+	<script src="assets/js/jquery.realperson.package-2.0.0/jquery.plugin.js"></script>
+	<script src="assets/js/jquery.realperson.package-2.0.0/jquery.realperson.min.js"></script>
+	<script>
+		$(function() {
+			$('#defaultReal').realperson();
+		});
+	</script>
+</body>
+</html>
